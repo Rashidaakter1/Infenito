@@ -1,4 +1,5 @@
 import React from "react";
+import NavbarBanner from "../Shared/Navbar/NavbarBanner";
 import Banner from "./Banner/Banner";
 import Contact from "./Contact/Contact";
 import Services from "./Services/Services";
@@ -9,7 +10,7 @@ import Testimonial from "./Testimonial/Testimonial";
 const Home = () => {
   return (
     <>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <NavbarBanner/>
       <Stacks />
       <Services />
       <Support />

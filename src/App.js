@@ -7,6 +7,7 @@ import Footer from "./pages/Shared/Footer/Footer";
 import About from "./pages/Home/About/About";
 import Portfolio from "./pages/Home/Portfolio/Portfolio";
 import Pricing from "./pages/Home/Pricing/Pricing";
+import NavbarBanner from "./pages/Shared/Navbar/NavbarBanner";
 
 function App() {
   return (
@@ -22,9 +23,7 @@ function App() {
           <Route path="pricing" element={<Pricing />} />
         </Routes>
       </main>
-      <footer className="">
-        <Footer></Footer>
-      </footer>
+      <Footer></Footer>
     </div>
   );
 }

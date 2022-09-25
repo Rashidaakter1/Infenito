@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillAppstore } from "react-icons/ai";
+import { AiFillAppstore, AiFillFire } from "react-icons/ai";
 import { FaBuysellads, FaDatabase } from "react-icons/fa";
 import { SiBlockchaindotcom } from "react-icons/si";
 import { CgGames } from "react-icons/cg";
@@ -21,17 +21,20 @@ const Stacks = () => {
         See popular tags <p>and browse different topics</p>
       </h3>
       <div className="grid lg:grid-cols-3 md:grid-cols-1 grid-cols-1 gap-10">
-        <div className="col-span-1">
-          <div>
-            <p className="text-base  my-10 border-2 py-4 font-bold ">
-              <div
-                className="my-2"
-                style={{ fontSize: "2vw", color: "#ED4B9E" }}
-              >
-                <AiFillAppstore />
-              </div>
-              Different Topics
-            </p>
+        <div className="col-span-1 mx-auto my-7">
+          <div
+            className="border-2 border-purple-600 flex items-center px-10 py-4 "
+            style={{
+              fontSize: "2vw",
+              color: "#09002A",
+              borderColor: " #F050BE",
+            }}
+          >
+            <div className="mx-2">
+              <AiFillFire />
+            </div>
+
+            <p className="text-base font-bold ">Different Topics</p>
           </div>
         </div>
         <div className="col-span-2 grid lg:grid-cols-2 gap-10 text-start ">
