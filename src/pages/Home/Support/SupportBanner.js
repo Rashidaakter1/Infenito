@@ -4,16 +4,21 @@ import support from "../../../images/45155-support-system.gif";
 const SupportBanner = () => {
   return (
     <>
-      <div className="border h-auto">
-        <h1 className="border">What you get Besides the above things</h1>
-      </div>
-      <div className="flex items-center border">
-        <div className="mx-1 text-violet-900">
-          <AiFillCheckCircle />
+      <div  className="col-span-2 grid lg:grid-cols-2 ">
+        <h2 className=" text-4xl my-auto ">
+          What you get Besides the above things
+        </h2>
+        <div className="flex items-center ">
+          <div className="flex items-center mx-auto ">
+            <div className=" text-violet-700 mx-1">
+              <AiFillCheckCircle />
+            </div>
+            <p>24/7 support </p>
+          </div>
         </div>
-        <p>24/7 support </p>
       </div>
-      <div>
+
+      <div className="col-span-1">
         <img src={support} alt="" />
       </div>
     </>

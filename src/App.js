@@ -14,7 +14,7 @@ function App() {
       <header>
         <Navbar></Navbar>
       </header>
-      <main className="mx-4">
+      <main style={{ color: " #09002A" }} className="">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
@@ -22,7 +22,7 @@ function App() {
           <Route path="pricing" element={<Pricing />} />
         </Routes>
       </main>
-      <footer className="h-screen">
+      <footer className="">
         <Footer></Footer>
       </footer>
     </div>
