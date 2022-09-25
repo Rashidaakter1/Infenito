@@ -3,8 +3,23 @@ import { Link } from "react-router-dom";
 import contact from "../../../images/113015-contact-us.gif";
 const Contact = () => {
   return (
-    <div className="grid lg:grid-cols-1 md:grid-cols-1 grid-cols-1 gap-3">
-      <img src={contact} alt="" />
+    <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 gap-3">
+      <div>
+        <h1>Lets build something AWESOME !!!</h1>
+        <p>
+          One of the Tech Experts will reach out to you within nest 48 business
+          hours
+        </p>
+        <img src={contact} alt="" />
+        <div className="lg:w-32">
+          <h2>Follow us on</h2>
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+            <a href="">in</a>
+            <a href="">tw</a>
+            <a href="">li</a>
+          </div>
+        </div>
+      </div>
 
       <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-purple-100">
         <form className="card-body">

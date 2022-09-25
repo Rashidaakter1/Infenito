@@ -4,16 +4,27 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Navbar from "./pages/Shared/Navbar/Navbar";
 import Footer from "./pages/Shared/Footer/Footer";
+import About from "./pages/Home/About/About";
+import Portfolio from "./pages/Home/Portfolio/Portfolio";
+import Pricing from "./pages/Home/Pricing/Pricing";
 
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        {/* <Route path="about" element={<About />} /> */}
-      </Routes>
-      <Footer></Footer>
+      <header>
+        <Navbar></Navbar>
+      </header>
+      <main className="mx-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="pricing" element={<Pricing />} />
+        </Routes>
+      </main>
+      <footer className="h-screen">
+        <Footer></Footer>
+      </footer>
     </div>
   );
 }
