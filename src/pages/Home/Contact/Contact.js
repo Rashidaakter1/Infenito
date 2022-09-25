@@ -24,6 +24,8 @@ const Contact = () => {
       <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-purple-100">
         <form className="card-body">
           <div className="form-control">
+            <h1>Drop us a Message</h1>
+            <p>we would love to hear every from you</p>
             <label className="label">
               <span className="label-text">Name</span>
             </label>
@@ -62,11 +64,11 @@ const Contact = () => {
           </div>
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Password</span>
+              <span className="label-text">Contact Number</span>
             </label>
             <input
-              type="password"
-              placeholder="password"
+              type="text"
+              placeholder="contact"
               className="input input-bordered"
               // {...register("password", {
               //   required: true,
@@ -82,34 +84,55 @@ const Contact = () => {
                 {errors.password?.type === "minLength" &&
                   "password must be 8 characters"}
               </p> */}
-
+          </div>
+          <div className="form-control">
             <label className="label">
-              <a href="#" className="label-text-alt link link-hover">
-                Forgot password?
-              </a>
+              <span className="label-text">Subject</span>
             </label>
+            <input
+              type="text"
+              placeholder="subject"
+              className="input input-bordered"
+              // {...register("password", {
+              //   required: true,
+              //   minLength: {
+              //     value: 8,
+              //     message: "error message",
+              //   },
+              // })}
+            />
+
+            {/* <p className="text-red-500">
+                {errors.password?.type === "required" && "password is required"}
+                {errors.password?.type === "minLength" &&
+                  "password must be 8 characters"}
+              </p> */}
+          </div>
+          <div className="form-control">
+            <label className="label">
+              <span className="label-text">Description</span>
+            </label>
+            <textarea
+              type="text"
+              placeholder="description"
+              className="input input-bordered"
+              // {...register("password", {
+              //   required: true,
+              //   minLength: {
+              //     value: 8,
+              //     message: "error message",
+              //   },
+              // })}
+            />
+
+            {/* <p className="text-red-500">
+                {errors.password?.type === "required" && "password is required"}
+                {errors.password?.type === "minLength" &&
+                  "password must be 8 characters"}
+              </p> */}
           </div>
           <div className="form-control mt-6">
-            <input type="submit" className="btn btn-primary" value="Register" />
-            <button className="btn btn-primary mt-4">
-              <div className="flex flex-row items-center">
-                <img
-                  style={{ height: "35px" }}
-                  src="https://i.ibb.co/ZTdGcNf/google-logo.webp"
-                  alt=""
-                />
-
-                <div>
-                  <span className="">Continue With Google</span>
-                </div>
-              </div>
-            </button>
-            {/* <p className="text-red-500 text-xs">{errorMessage}</p> */}
-          </div>
-          <div>
-            <p>
-              Already have an account? <Link to="/login">Login </Link>
-            </p>
+            <input type="submit" className="btn btn-primary" value="send" />
           </div>
         </form>
       </div>

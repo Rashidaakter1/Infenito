@@ -2,26 +2,48 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer p-10 bg-neutral text-neutral-content">
+    <footer
+      style={{ background: "#0E0E2C" }}
+      className="footer p-10 bg-neutral text-neutral-content"
+    >
       <div>
-        <span className="footer-title">Services</span>
-        <a className="link link-hover">Branding</a>
-        <a className="link link-hover">Design</a>
-        <a className="link link-hover">Marketing</a>
-        <a className="link link-hover">Advertisement</a>
+        <span className="footer-title">Company </span>
+        <a href="/about" className="link link-hover">
+          About us
+        </a>
+        <a href="/portfolio" className="link link-hover">
+          Portfolio
+        </a>
+        <a href="/pricing" className="link link-hover">
+          Pricing
+        </a>
+        <a href="/contact" className="link link-hover">
+          Contact
+        </a>
       </div>
       <div>
-        <span className="footer-title">Company</span>
-        <a className="link link-hover">About us</a>
-        <a className="link link-hover">Contact</a>
-        <a className="link link-hover">Jobs</a>
-        <a className="link link-hover">Press kit</a>
+        <span className="footer-title">Contact</span>
+        <a href="/" className="link link-hover">
+          Quote
+        </a>
+        <a href="/" className="link link-hover">
+          infenito@gmail.com
+        </a>
+        <a href="/" className="link link-hover">
+          984373330
+        </a>
       </div>
       <div>
-        <span className="footer-title">Legal</span>
-        <a className="link link-hover">Terms of use</a>
-        <a className="link link-hover">Privacy policy</a>
-        <a className="link link-hover">Cookie policy</a>
+        <span className="footer-title">More</span>
+        <a href="/" className="link link-hover">
+          Instagram
+        </a>
+        <a href="/" className="link link-hover">
+          Facebook
+        </a>
+        <a href="/" className="link link-hover">
+          Linkedin
+        </a>
       </div>
     </footer>
   );
