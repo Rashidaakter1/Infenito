@@ -9,7 +9,7 @@ const Testimonial = () => {
       <div className="col-span-3 flex items-end ">
         <div
           style={{ background: "#31D0AA", borderRadius: " 90px 90px 0px 90px" }}
-          className="p-12  text-start mx-6"
+          className="p-12  text-start text-white mx-6"
         >
           <p>
             Look no further. These guys are great to work with! VERY GOOD

@@ -36,6 +36,57 @@ const Stacks = () => {
 
             <p className="text-base font-bold ">Different Topics</p>
           </div>
+          <span className="text-4xl">&#8595;</span>
+
+          <div
+            className="border-2 border-dashed rounded-xl"
+            style={{
+              color: "#09002A",
+              borderColor: " #09002A",
+            }}
+          >
+            AI/ML
+          </div>
+          <span className="text-4xl ">&#8595;</span>
+          <div
+            className="border-2 border-dashed rounded-xl"
+            style={{
+              color: "#09002A",
+              borderColor: " #09002A",
+            }}
+          >
+            Node
+          </div>
+          <span className="text-4xl ">&#8595;</span>
+          <div
+            className="border-2 border-dashed rounded-xl"
+            style={{
+              color: "#09002A",
+              borderColor: " #09002A",
+            }}
+          >
+            Database
+          </div>
+          <span className="text-4xl ">&#8595;</span>
+          <div
+            className="border-2 border-dashed rounded-xl"
+            style={{
+              color: "#09002A",
+              borderColor: " #09002A",
+            }}
+          >
+            My SQL
+          </div>
+          <span className="text-4xl ">&#8595;</span>
+          <div
+            className="border-2 border-dashed rounded-xl"
+            style={{
+              color: "#09002A",
+              borderColor: " #09002A",
+            }}
+          >
+            React
+          </div>
         </div>
         <div className="col-span-2 grid lg:grid-cols-2 gap-10 text-start ">
           <div>

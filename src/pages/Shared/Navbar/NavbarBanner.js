@@ -1,15 +1,11 @@
 import React from "react";
-import gradient from "../../../images/gradient.png";
+import gradient from "../../../images/gradient-pink-abstract-background_.jpg";
 const NavbarBanner = () => {
   return (
     <div
-      style={{
-        backgroundImage: `url(${gradient})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-      }}
+      
     >
-      <div className="text-start mx-24">
+      <div className="text-start mx-24 text-white">
         <h3 className="my-10">infenito</h3>
         <p className="my-4">Welcome to Infenito</p>
         <h1 className="text-6xl">

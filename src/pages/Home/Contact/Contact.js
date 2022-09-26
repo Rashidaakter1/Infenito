@@ -26,21 +26,21 @@ const Contact = () => {
           <img src={contact} alt="" />
           <div className="lg:w-32">
             <h3 className="text-lg font-bold">Follow us on</h3>
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
-              <a className="lg:w-9 md:w-6 w-4  lg:h-9 md:h-6 h-4" href="">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 ">
+              <a style={{fontSize:"2vw"}} className="lg:w-9 md:w-6 w-4  lg:h-9 md:h-6 h-4 " href="">
                 <FaInstagramSquare />
               </a>
-              <a className="lg:w-9 md:w-6 w-4  lg:h-9 md:h-6 h-4" href="">
+              <a style={{fontSize:"2vw"}} className="lg:w-9 md:w-6 w-4  lg:h-9 md:h-6 h-4 lg:mx-2" href="">
                 <BsTwitter />
               </a>
-              <a className="lg:w-9 md:w-6 w-4  lg:h-9 md:h-6 h-4" href="">
+              <a style={{fontSize:"2vw"}} className="lg:w-9 md:w-6 w-4  lg:h-9 md:h-6 h-4 lg:mx-2" href="">
                 <GrLinkedin />
               </a>
             </div>
           </div>
         </div>
 
-        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl my-6">
+        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl my-6 text-white">
           <form
             style={{
               background:
@@ -48,11 +48,11 @@ const Contact = () => {
             }}
             className="card-body"
           >
-            <div className="form-control">
-              <h1>Drop us a Message</h1>
-              <p>we would love to hear every from you</p>
+            <div className="form-control ">
+              <h1 className="font-bold text-xl">Drop us a Message</h1>
+              <p className="text-base">we would love to hear every from you</p>
               <label className="label">
-                <span className="label-text">Name</span>
+                <span className="label-text text-white ">Name</span>
               </label>
               <input
                 type="text"
@@ -68,7 +68,7 @@ const Contact = () => {
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Email</span>
+                <span className="label-text  text-white">Email</span>
               </label>
               <input
                 type="email"
@@ -89,7 +89,7 @@ const Contact = () => {
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Contact Number</span>
+                <span className="label-text  text-white">Contact Number</span>
               </label>
               <input
                 type="text"
@@ -112,7 +112,7 @@ const Contact = () => {
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Subject</span>
+                <span className="label-text  text-white">Subject</span>
               </label>
               <input
                 type="text"
@@ -135,11 +135,12 @@ const Contact = () => {
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Description</span>
+                <span className="label-text  text-white">Description</span>
               </label>
               <textarea
+             
                 type="text"
-                placeholder="description"
+                placeholder="Description"
                 className="input input-bordered"
                 // {...register("password", {
                 //   required: true,

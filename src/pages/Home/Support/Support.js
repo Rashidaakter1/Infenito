@@ -6,16 +6,16 @@ import { FaProjectDiagram } from "react-icons/fa";
 
 const Support = () => {
   return (
-    <div className="lg:mx-24">
+    <div className="lg:mx-24  ">
       <div
         style={{
           height: " 4px",
           width: " 116px",
           borderColor: "#F050BE",
         }}
-        className="border-2 my-1"
+        className="border-2 my-1 hidden lg:flex"
       ></div>
-      <h3 className="text-2xl text-start font-bold ">
+      <h3 className="text-2xl lg:text-start text-center font-bold ">
         Let's see <p>how it works</p>
       </h3>
       <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 my-12 ">

@@ -28,14 +28,95 @@ const Services = () => {
         </div>
       </div>
 
-      <div>
-        <div>CMS</div>
-        <div>UI/UX</div>
-        <div>SaaS</div>
-        <div>AL/ML</div>
-        <div>Blockchain</div>
-        <div>Websites</div>
-        <div>Mobile Apps</div>
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-6 lg:my-16 my-8 lg:mx-36 md:mx-24 mx-12 ">
+        <div>
+          <div className="card w-48 bg-base-100 shadow-xl">
+            <div className="card-body">
+              <h2 className="card-title">CMS</h2>
+              <div className="card-actions justify-end">
+                <button className="btn btn-primary">Check Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          {" "}
+          <div>
+            <div className="card w-48 bg-base-100 shadow-xl">
+              <div className="card-body">
+                <h2 className="card-title"> UI/UX</h2>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Check Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          {" "}
+          <div>
+            <div className="card w-48 bg-base-100 shadow-xl">
+              <div className="card-body">
+                <h2 className="card-title"> SaaS</h2>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Check Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          {" "}
+          <div>
+            <div className="card w-48 bg-base-100 shadow-xl">
+              <div className="card-body">
+                <h2 className="card-title"> AL/ML</h2>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Check Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          {" "}
+          <div>
+            <div className="card w-48 bg-base-100 shadow-xl">
+              <div className="card-body">
+                <h2 className="card-title"> Blockchain</h2>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Check Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          {" "}
+          <div>
+            <div className="card w-48 bg-base-100 shadow-xl">
+              <div className="card-body">
+                <h2 className="card-title">Websites</h2>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Check Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          {" "}
+          <div>
+            <div className="card w-48 bg-base-100 shadow-xl">
+              <div className="card-body">
+                <h2 className="card-title">Mobile Apps</h2>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Check Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       {/* <div>
         <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 my-12 ">

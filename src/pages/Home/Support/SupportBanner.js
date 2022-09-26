@@ -13,12 +13,12 @@ const SupportBanner = () => {
             <div className=" text-violet-700 mx-1">
               <AiFillCheckCircle />
             </div>
-            <p>24/7 support </p>
+            <p className="lg:my-0 my-6">24/7 support </p>
           </div>
         </div>
       </div>
 
-      <div className="col-span-1">
+      <div className="col-span-1 ">
         <img src={support} alt="" />
       </div>
     </>
