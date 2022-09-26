@@ -5,16 +5,14 @@ import paper from "../../../images/unsplash_xG8IQMqMITM.png";
 import metaverse from "../../../images/unsplash_IyaNci0CyRk.png";
 import website from "../../../images/unsplash_Ylk5n_nd9dA.png";
 
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 // import required modules
-import { FreeMode, Pagination } from "swiper";
+import { Pagination } from "swiper";
 
 const Banner = () => {
   return (
@@ -37,7 +35,21 @@ const Banner = () => {
             pagination={{
               clickable: true,
             }}
-            modules={[FreeMode, Pagination]}
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 50,
+              },
+            }}
+            modules={[Pagination]}
             className="mySwiper"
           >
             <SwiperSlide>

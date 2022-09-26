@@ -10,7 +10,7 @@ const Navbar = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
-      className="py-6 border rounded-b-2xl"
+      className="py-6  rounded-b-2xl"
     >
       <ul className=" flex justify-end mx-auto text-white ">
         <li className="mx-3 py-3">
